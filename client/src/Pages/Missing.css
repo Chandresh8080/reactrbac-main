@@ -1,0 +1,72 @@
+
+.missing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  .missing-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .missing-message {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+  
+  .missing-link-container {
+    margin-top: 40px;
+  }
+  
+  .missing-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .missing-link:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  .missing-link:active {
+    transform: translateY(2px);
+  }
+  
+
+  @media (max-width: 768px) {
+    .missing-title {
+      font-size: 3rem;
+    }
+  
+    .missing-message {
+      font-size: 1.6rem;
+    }
+  
+    .missing-link {
+      font-size: 1.2rem;
+      padding: 12px 24px;
+    }
+  }
+  

@@ -1,0 +1,67 @@
+
+.hr-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+  }
+  
+  .hr-page-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .hr-page-message {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  .hr-page-container a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #16a085;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hr-page-container a:hover {
+    background-color: #1abc9c;
+    transform: translateY(-5px);
+  }
+  
+  .hr-page-container a:active {
+    transform: translateY(2px);
+  }
+  
+
+  @media (max-width: 768px) {
+    .hr-page-title {
+      font-size: 2.5rem;
+    }
+  
+    .hr-page-message {
+      font-size: 1.6rem;
+    }
+  
+    .hr-page-container a {
+      font-size: 1.2rem;
+      padding: 12px 24px;
+    }
+  }
+  

@@ -1,0 +1,51 @@
+.link-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .link-page-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .link-page-message {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin-bottom: 40px;
+  }
+  
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .link-item {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .link-item:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  .link-item:active {
+    transform: translateY(1px);
+  }
+  

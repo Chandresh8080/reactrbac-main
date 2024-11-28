@@ -1,0 +1,67 @@
+
+.se-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ecf0f1;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+  }
+  
+  .se-page-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .se-page-message {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+
+  .se-page-container a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .se-page-container a:hover {
+    background-color: #2980b9;
+    transform: translateY(-5px);
+  }
+  
+  .se-page-container a:active {
+    transform: translateY(2px);
+  }
+
+  @media (max-width: 768px) {
+    .se-page-title {
+      font-size: 2.5rem;
+    }
+  
+    .se-page-message {
+      font-size: 1.6rem;
+    }
+  
+    .se-page-container a {
+      font-size: 1.2rem;
+      padding: 12px 24px;
+    }
+  }
+  
